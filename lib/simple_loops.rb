@@ -1,7 +1,18 @@
-loop_message_five_times(message)
+def loop_message_five_times(message)
 num = 5
 while(num > 0)
   puts message
-  num-=
+  num -= 1
 end
+end
+
+def loop_message_n_times(message, n)
+  while(n > 0)
+    puts message
+    n -= 1
+  end
+end
+
+def output_array(array)
+  array.each {|a| puts a}
 end
