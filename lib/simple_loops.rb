@@ -16,3 +16,8 @@ end
 def output_array(array)
   array.each {|a| puts a}
 end
+
+def return_string_array(array)
+  arr = Array.new
+  array.each{|a| arr.push(a)}
+end
