@@ -19,5 +19,5 @@ end
 
 def return_string_array(array)
   arr = Array.new
-  array.each{|a| arr.push(a)}
+  array.each{|a| arr.push(a.to_s)}
 end
